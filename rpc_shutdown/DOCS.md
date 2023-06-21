@@ -27,7 +27,7 @@ computers:
     delay: 0
     message: Home Assistant is shutting down this PC. This cannot be canceled. Please save your work!
   - alias: test-pc-2
-    address: 192.168.0.2
+    address: somehost.somedomain
     credentials: user%password
     delay: 0
     message: Home Assistant is shutting down this PC. This cannot be canceled. Please save your work!

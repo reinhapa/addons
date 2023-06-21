@@ -20,6 +20,11 @@ while read -r input; do
             continue
         fi
 
+        # Resolve IP address if address is not an IP
+#        if ! ip route $ADDRESS >/dev/null 2&>1; then
+#            ADDRESS=$(dig +short $ADDRESS)
+#        fi
+
         # Check if delay is not empty
         if bashio::var.equals "$DELAY" "null"; then
             DELAY="0"

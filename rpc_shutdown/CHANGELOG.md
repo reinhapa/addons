@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.5
+
+- Adds support for hostnames in addition to IP addresses
+
 ## 2.4
 
 - Update to Alpine 3.17
